@@ -1,0 +1,21 @@
+# npm
+npm-debug.*
+yarn-error.log
+node_modules
+
+# mac
+.DS_Store
+
+# windows
+Thumbs.db
+
+# webstorm
+.idea/
+
+# jest
+coverage/
+
+# expo
+.expo/*
+
+dist/

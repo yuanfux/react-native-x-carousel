@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carousel /> renders correctly 1`] = `
+<Carousel
+  autoplay={false}
+  autoplayInterval={2000}
+  data={
+    Array [
+      Object {
+        "text": "#1",
+      },
+      Object {
+        "text": "#2",
+      },
+      Object {
+        "text": "#3",
+      },
+    ]
+  }
+  loop={false}
+  onPage={[Function]}
+  pagination={[Function]}
+  renderItem={[Function]}
+>
+  <View>
+    <View>
+      <ScrollViewMock
+        bounces={false}
+        horizontal={true}
+        onContentSizeChange={[Function]}
+        onScroll={[Function]}
+        pagingEnabled={true}
+        scrollEventThrottle={16}
+        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
+        style={
+          Array [
+            Object {
+              "flexGrow": 0,
+            },
+            Object {
+              "width": 0,
+            },
+          ]
+        }
+      >
+        <RCTScrollView
+          bounces={false}
+          horizontal={true}
+          onContentSizeChange={[Function]}
+          onScroll={[Function]}
+          pagingEnabled={true}
+          scrollEventThrottle={16}
+          showsHorizontalScrollIndicator={false}
+          showsVerticalScrollIndicator={false}
+          style={
+            Array [
+              Object {
+                "flexGrow": 0,
+              },
+              Object {
+                "width": 0,
+              },
+            ]
+          }
+        >
+          <RCTScrollView
+            bounces={false}
+            horizontal={true}
+            onContentSizeChange={[Function]}
+            onScroll={[Function]}
+            pagingEnabled={true}
+            scrollEventThrottle={16}
+            showsHorizontalScrollIndicator={false}
+            showsVerticalScrollIndicator={false}
+            style={
+              Array [
+                Object {
+                  "flexGrow": 0,
+                },
+                Object {
+                  "width": 0,
+                },
+              ]
+            }
+          >
+            <View>
+              <View>
+                <View
+                  key="#1"
+                >
+                  <View>
+                    <Text>
+                      <Text>
+                        #1
+                      </Text>
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  key="#2"
+                >
+                  <View>
+                    <Text>
+                      <Text>
+                        #2
+                      </Text>
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  key="#3"
+                >
+                  <View>
+                    <Text>
+                      <Text>
+                        #3
+                      </Text>
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </RCTScrollView>
+      </ScrollViewMock>
+      <Pagination
+        currentPage={1}
+        theme="dark"
+        total={3}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": "5%",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": "5%",
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+              }
+            }
+          >
+            <View
+              key="pagination-dot-0"
+              style={
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                    "height": 6,
+                    "width": 6,
+                  },
+                  Object {
+                    "backgroundColor": "#000",
+                    "marginLeft": 0,
+                    "opacity": 0.5,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "borderRadius": 3,
+                      "height": 6,
+                      "width": 6,
+                    },
+                    Object {
+                      "backgroundColor": "#000",
+                      "marginLeft": 0,
+                      "opacity": 0.5,
+                    },
+                  ]
+                }
+              />
+            </View>
+            <View
+              key="pagination-dot-1"
+              style={
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                    "height": 6,
+                    "width": 6,
+                  },
+                  Object {
+                    "backgroundColor": "#000",
+                    "marginLeft": 8,
+                    "opacity": 0.2,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "borderRadius": 3,
+                      "height": 6,
+                      "width": 6,
+                    },
+                    Object {
+                      "backgroundColor": "#000",
+                      "marginLeft": 8,
+                      "opacity": 0.2,
+                    },
+                  ]
+                }
+              />
+            </View>
+            <View
+              key="pagination-dot-2"
+              style={
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                    "height": 6,
+                    "width": 6,
+                  },
+                  Object {
+                    "backgroundColor": "#000",
+                    "marginLeft": 8,
+                    "opacity": 0.2,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "borderRadius": 3,
+                      "height": 6,
+                      "width": 6,
+                    },
+                    Object {
+                      "backgroundColor": "#000",
+                      "marginLeft": 8,
+                      "opacity": 0.2,
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </Pagination>
+    </View>
+  </View>
+</Carousel>
+`;
