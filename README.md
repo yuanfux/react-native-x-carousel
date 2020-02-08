@@ -15,16 +15,15 @@
 
 
 ## Preview
-`react-native-x-carousel` is a React Native component for building a cross-platform .
+[View Live Demo](https://snack.expo.io/@fuyuanx/react-native-x-carousel)
+
+`react-native-x-carousel` is a React Native component for building a cross-platform carousel.
 
 Highlighted Features:
 
-1. **Cross Platform** - support `iOS`, `Android` and `Web`
-
+1. **Cross Platform** - uniform behaviors among `iOS`, `Android` and `Web`
 2. **Loop Cycle** - support head-to-tail / tail-to-head loop cycle
-
 4. **Auto Play** - auto play with smooth transition
-
 5. **Fully Customizable** - customizable carousel content & pagination
 
 ## Install
