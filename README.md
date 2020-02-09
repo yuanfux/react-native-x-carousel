@@ -2,7 +2,7 @@
 > a cross-platform (`iOS`, `Android`, `Web`) react native carousel component
   
 
-![npm](https://img.shields.io/npm/v/react-native-x-carousel.svg?style=flat-square) ![](https://img.shields.io/travis/yuanfux/react-native-x-carousel/master.svg?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/yuanfux/react-native-x-carousel.svg?style=flat-square) ![NPM](https://img.shields.io/npm/l/react-native-hsv-color-picker.svg?style=flat-square) ![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square) ![](https://img.shields.io/maintenance/yes/2020.svg?style=flat-square)
+[![npm](https://img.shields.io/npm/v/react-native-x-carousel.svg?style=flat-square)](https://www.npmjs.com/package/react-native-x-carousel) ![](https://img.shields.io/travis/yuanfux/react-native-x-carousel/master.svg?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/yuanfux/react-native-x-carousel.svg?style=flat-square) ![NPM](https://img.shields.io/npm/l/react-native-hsv-color-picker.svg?style=flat-square) ![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square) ![](https://img.shields.io/maintenance/yes/2020.svg?style=flat-square)
 
 
 
@@ -36,7 +36,7 @@ $ npm install react-native-x-carousel --save
 ```js
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import Carousel, { Pagination } from '../src';
+import Carousel, { Pagination } from 'react-native-x-carousel';
 
 const DATA = [
   { text: '#1' },
